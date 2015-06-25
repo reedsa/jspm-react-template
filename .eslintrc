@@ -1,0 +1,26 @@
+{
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "env": {
+        "amd": true,
+        "browser": true,
+        "es6": true
+    },
+    "rules": {
+        "camelcase": false,
+        "comma-dangle": true,
+        "complexity": [1, 6],
+        "global-strict": true,
+        "indent": [2, 2],
+        "max-len": [2, 140],
+        "no-shadow": false,
+        "no-unused-vars": [2, {"vars": "local", "args": "none"}],
+        "no-use-before-define": false,
+        "semi": [2, "always"]
+    },
+    "plugins": [
+      "react"
+    ]
+}

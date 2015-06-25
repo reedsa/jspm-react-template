@@ -1,0 +1,2 @@
+spec/unit/fixtures/*
+src/jspm_packages/**/*
